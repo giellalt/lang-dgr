@@ -26,12 +26,14 @@ GT_LEXC_SRCS_L1_L2=\
 			 affixes/adjectives.lexc  \
 			 affixes/nouns.lexc       \
 			 affixes/propernouns.lexc \
+			 affixes/verbs.lexc       \
 			 stems/adjectives.lexc    \
 			 stems/nouns.lexc         \
 			 stems/numerals.lexc      \
 			 stems/prefixes.lexc      \
 			 stems/pronouns.lexc      \
-			 stems/punctuation.lexc
+			 stems/punctuation.lexc   \
+			 stems/verbs.lexc
 
 # If you are building an error-detecting L2 analyser, specify the lexc files
 # that differ between the regular L1 and the L2 analysers below, in L1 and
@@ -61,33 +63,10 @@ GT_LOCAL_SRCS=
 GT_LOCAL_XFSCRIPT_SRCS=
 
 # Define here any additional sources just included in the distro:
-GT_DISTRO_SRCS=affixes/verb_inner_affixes.lexc  \
-              affixes/verb_middle_affixes.lexc \
-              affixes/verb_outer_affixes.lexc  \
-              affixes/verbtags.lexc            \
-              stems/verbstems.lexc
+GT_DISTRO_SRCS=
 
 ### BEGIN: Local processing: ###
 
-DGR_VERBS=
-if CAN_HFST
-DGR_VERBS+=verb_lexicon.hfst
-endif # CAN_HFST
-if CAN_XFST
-DGR_VERBS+=verb_lexicon.xfst
-endif # CAN_XFST
-if CAN_FOMA
-DGR_VERBS+=verb_lexicon.foma
-endif # CAN_FOMA
-
-verbs: $(DGR_VERBS)
-
-lexicon.%: lexicon.tmp.% verb_lexicon.%
-	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
-			[ @\"$<\" | @\"verb_lexicon.$*\" ] \
-			;\n\
-		 save stack $@\n\
-		 quit\n" | $(XFST_TOOL)
 
 ### END: Local processing: ###
 
