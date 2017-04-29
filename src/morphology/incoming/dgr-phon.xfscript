@@ -1,0 +1,10 @@
+define hl2lRule [ l -> ł || h _ ] ;
+
+define dl2dlRule [ ᴰ -> d || _ l ] ;
+
+read regex [
+
+	hl2lRule	.o.
+	dl2dlRule	
+	
+] ;
