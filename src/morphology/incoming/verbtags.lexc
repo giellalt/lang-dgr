@@ -1,6 +1,7 @@
 Multichar_Symbols
 @U.VALENCE.TRANSITIVE@
 @U.VALENCE.INTRANSITIVE@
+@R.VALENCE.INTRANSITIVE@
 @U.ASPECT.IPFV@
 @U.ASPECT.PFV@
 @U.ASPECT.OPT@
@@ -11,13 +12,28 @@ Multichar_Symbols
 @U.SUBJECTPERSON.2@
 @U.SUBJECTPERSON.3@
 
-
 @U.SUBJECTNUMBER.SG@
 @U.SUBJECTNUMBER.DU@
 @U.SUBJECTNUMBER.PL@
 
 @R.DISTRIBUTIVE.ON@
 @R.DISTRIBUTIVE.OFF@
+
+
+@R.OBJECTPERSON.1@
+@R.OBJECTPERSON.2@
+@R.OBJECTPERSON.3@
+@R.OBJECTPERSON.4@
+@R.OBJECTPERSON.%0@
+@R.OBJECTPERSON.a@
+@R.OBJECTPERSON.i@
+
+@R.OBJECTNUMBER.SG@
+@R.OBJECTNUMBER.DU@
+@R.OBJECTNUMBER.PL@
+
+
+
 
 +V
 +I
@@ -27,13 +43,26 @@ Multichar_Symbols
 +Pfv
 +Opt
 
-+Sg1
-+Sg2
-+Sg3
-+Du1
-+Pl1
-+Pl2
-+Pl3
++SbjSg1
++SbjSg2
++SbjSg3
++SbjDu1
++SbjPl1
++SbjPl2
++SbjPl3
+
++DOSg1
++DOSg2
++DOSg3
++DOSg4
++DODu1
++DOPl1
++DOPl2
++DOPl3
++DOPl4
++DOSgIndef
++DOSgAreal
++DOSgNull
 
 +Distr
 
@@ -53,16 +82,16 @@ LEXICON Aspect
 @U.ASPECT.OPT@ OPT ;
 
 LEXICON IPFV
-+Ipfv:0 PersonNumber ;
++Ipfv:0 SubjectPersonNumber ;
 
 LEXICON PFV
-+Pfv:0 PersonNumber ;
++Pfv:0 SubjectPersonNumber ;
 
 LEXICON OPT
-+Opt:0 PersonNumber ;
++Opt:0 SubjectPersonNumber ;
 
 
-Lexicon PersonNumber
+Lexicon SubjectPersonNumber
 @U.SUBJECTPERSON.1@@U.SUBJECTNUMBER.SG@ SG1 ;
 @U.SUBJECTPERSON.2@@U.SUBJECTNUMBER.SG@ SG2 ;
 @U.SUBJECTPERSON.3@@U.SUBJECTNUMBER.SG@ SG3 ;
@@ -72,27 +101,74 @@ Lexicon PersonNumber
 @U.SUBJECTPERSON.3@@U.SUBJECTNUMBER.PL@ PL3 ;
 
 Lexicon SG1
-+Sg1:0 # ;
++SbjSg1:0 DOPersonNumber ;
 
 Lexicon SG2
-+Sg2:0 # ;
++SbjSg2:0 DOPersonNumber ;
 
 Lexicon SG3
-+Sg3:0 # ;
++SbjSg3:0 DOPersonNumber ;
 
 Lexicon DU1
-+Du1:0 # ;
++SbjDu1:0 DOPersonNumber ;
 
 Lexicon PL1
-+Pl1:0 Distributive ;
++SbjPl1:0 DOPersonNumber ;
 
 Lexicon PL2
-+Pl2:0 Distributive ;
++SbjPl2:0 DOPersonNumber ;
 
 Lexicon PL3
-+Pl3:0 Distributive ;
++SbjPl3:0 DOPersonNumber ;
 
-Lexicon Distributive
-@R.DISTRIBUTIVE.OFF@ # ;
-@R.DISTRIBUTIVE.ON@+Distr:@R.DISTRIBUTIVE.ON@0 # ;
+Lexicon DOPersonNumber
+@R.VALENCE.INTRANSITIVE@ #;
 
+@R.OBJECTPERSON.1@@R.OBJECTNUMBER.SG@ DOSG1 ;
+@R.OBJECTPERSON.2@@R.OBJECTNUMBER.SG@ DOSG2 ;
+@R.OBJECTPERSON.3@@R.OBJECTNUMBER.SG@ DOSG3 ;
+@R.OBJECTPERSON.4@@R.OBJECTNUMBER.SG@ DOSG4 ;
+@R.OBJECTPERSON.1@@R.OBJECTNUMBER.DU@ DODU1 ;
+@R.OBJECTPERSON.1@@R.OBJECTNUMBER.PL@ DOPL1 ;
+@R.OBJECTPERSON.2@@R.OBJECTNUMBER.PL@ DOPL2 ;
+@R.OBJECTPERSON.3@@R.OBJECTNUMBER.PL@ DOPL3 ;
+@R.OBJECTPERSON.4@@R.OBJECTNUMBER.PL@ DOPL4 ;
+@R.OBJECTPERSON.i@@R.OBJECTNUMBER.SG@ DOSGI ;
+@R.OBJECTPERSON.a@@R.OBJECTNUMBER.SG@ DOSGA ;
+@R.OBJECTPERSON.%0@@R.OBJECTNUMBER.SG@ DOSGNULL ;
+
+Lexicon DOSG1
++DOSg1:0 # ;
+
+Lexicon DOSG2
++DOSg2:0 # ;
+
+Lexicon DOSG3
++DOSg3:0 # ;
+
+Lexicon DOSG4
++DOSg4:0 # ;
+
+Lexicon DODU1
++DODu1:0 # ;
+
+Lexicon DOPL1
++DOPl1:0 # ;
+
+Lexicon DOPL2
++DOPl2:0 # ;
+
+Lexicon DOPL3
++DOPl3:0 # ;
+
+Lexicon DOPL4
++DOPl4:0 # ;
+
+Lexicon DOSGI
++DOSgIndef:0 # ;
+
+Lexicon DOSGA
++DOSgAreal:0 # ;
+
+Lexicon DOSGNULL
++DOSgNull:0 # ;
