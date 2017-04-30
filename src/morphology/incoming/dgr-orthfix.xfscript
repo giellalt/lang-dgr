@@ -1,8 +1,43 @@
 define apostrophe1Rule [ ' -> [ ’ | ʼ | ' ] ] ;
 
+define idotRule [ ı -> i ] ;
+
+define agraveRule [ a ̀ -> à ] ;
+define egraveRule [ e ̀ -> è ] ;
+define igraveRule [ ı ̀ -> [ ì | i ̀ ] ] ;
+define ograveRule [ o ̀ -> ò ] ;
+
+define aogonekRule [ a ̨ -> ą ] ;
+define eogonekRule [ e ̨ -> ę ] ;
+define iogonekRule [ ı ̨ -> į ] ;
+define oogonekRule [ o ̨ -> ǫ ] ;
+
+define aogonekgraveRule [ a ̨ ̀ -> [ a ̀ ̨ | ą ̀ | à ̨ ] ] ;
+define eogonekgraveRule [ e ̨ ̀ -> [ e ̀ ̨ | ę ̀ | è ̨ ] ] ;
+define iogonekgraveRule [ ı ̨ ̀ -> [ i ̀ ̨ | ı ̀ ̨ | į ̀ | ì ̨ ] ] ;
+define oogonekgraveRule [ o ̨ ̀ -> [ o ̀ ̨ | ǫ ̀ | ò ̨ ] ] ;
+
 
 read regex [
 
-	apostrophe1Rule		
-
+!	apostrophe1Rule .o.		
+	
+	idotRule 
+	
+!	agraveRule .o.
+!	egraveRule .o.
+!	igraveRule .o.
+!	ograveRule .o.
+	
+!	aogonekRule .o.
+!	eogonekRule .o.
+!	iogonekRule .o.
+!	oogonekRule .o.
+	
+!	aogonekgraveRule .o.
+!	eogonekgraveRule .o.
+!	iogonekgraveRule .o.
+!	oogonekgraveRule 
+	
+				
 ] ;

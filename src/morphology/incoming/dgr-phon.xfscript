@@ -1,10 +1,25 @@
 define hl2lRule [ l -> ł || h _ ] ;
 
-define dl2dlRule [ ᴰ -> d || _ l ] ;
+! D-effect rules
+define d2jRule [ ᴰ [ z | s ] h -> j ] ;
+define d2dzRule [ ᴰ [ z | s ] -> d z ] ;
+define d2dlRule [ ᴰ -> d || _ l ] ;
+define d2gwRule [ ᴰ w -> g w ] ;
+define d2gRule [ ᴰ g h -> g ] ;
+define d2tejecRule [ ᴰ ʔ -> t ' ] ;
+define dDeleteRule [ ᴰ -> 0 ] ;
 
 read regex [
 
-	hl2lRule	.o.
-	dl2dlRule	
-	
+	d2jRule 		.o.
+	d2dzRule		.o.
+	d2dlRule		.o.
+	d2gwRule		.o.
+	d2gRule			.o.
+	d2tejecRule		.o.
+	dDeleteRule 	.o.
+
+	hl2lRule		
+
+
 ] ;

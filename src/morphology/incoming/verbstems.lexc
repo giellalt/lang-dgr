@@ -48,9 +48,9 @@ ejı̨[sing]:jı̨							INTR-QuQuQu-IPFV;
 ejı̨[sing]:jı̨							INTR-QuQeQe-PFV;
 ejı̨[sing]:jı̨							INTR-QuweQu-OPT;
 
-ale[do]:a=le							INTR-QuQuQu-IPFV;
-ale[do]:a=la							INTR-QuQene-PFV;
-ale[do]:a=le							INTR-QuweQu-OPT;
+ale[do]:a=le							TR-QuQuQu-IPFV;
+ale[do]:a=la							TR-QuQene-PFV;
+ale[do]:a=le							TR-QuweQu-OPT;
 
 
 ! ts'ázid[wake-up]:ts'á=zíd                INTR-ni-IPFV;   ! (IPFV; ni-IPFV)
@@ -80,12 +80,18 @@ ale[do]:a=le							INTR-QuweQu-OPT;
 LEXICON INTR-QuQuQu-IPFV
 @U.VALENCE.INTRANSITIVE@@U.ASPECT.IPFV@@U.TAMA.QuQuQu@ Verbsuffixes;
 
+LEXICON TR-QuQuQu-IPFV
+@U.VALENCE.TRANSITIVE@@U.ASPECT.IPFV@@U.TAMA.QuQuQu@ Verbsuffixes;
+
 
 !
 ! Past/perfective (PFV) forms
 !
 LEXICON INTR-QuQene-PFV
 @U.VALENCE.INTRANSITIVE@@U.ASPECT.PFV@@U.TAMA.QuQene@ Verbsuffixes;
+
+LEXICON TR-QuQene-PFV
+@U.VALENCE.TRANSITIVE@@U.ASPECT.PFV@@U.TAMA.QuQene@ Verbsuffixes;
 
 LEXICON INTR-QuQeQe-PFV
 @U.VALENCE.INTRANSITIVE@@U.ASPECT.PFV@@U.TAMA.QuQeQe@ Verbsuffixes;
@@ -97,6 +103,8 @@ LEXICON INTR-QuQeQe-PFV
 LEXICON INTR-QuweQu-OPT
 @U.VALENCE.INTRANSITIVE@@U.ASPECT.OPT@@U.TAMA.QuweQu@ Verbsuffixes;
 
+LEXICON TR-QuweQu-OPT
+@U.VALENCE.TRANSITIVE@@U.ASPECT.OPT@@U.TAMA.QuweQu@ Verbsuffixes;
 
 
 
