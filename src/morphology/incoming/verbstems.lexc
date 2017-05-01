@@ -41,9 +41,9 @@ ejı̨[sing]:jı̨						   INTR-QuQuQu-IPFV;
 ejı̨[sing]:jı̨						   INTR-QuQeQe-PFV;
 ejı̨[sing]:jı̨						   INTR-QuweQu-OPT;
 
-ale[do]:a_le						   TR-QuQuQu-IPFV;
-ale[do]:a_la						   TR-QuQene-PFV;
-ale[do]:a_le						   TR-QuweQu-OPT;
+ale[do]:a=le						   TR-QuQuQu-IPFV;
+ale[do]:a=la						   TR-QuQene-PFV;
+ale[do]:a=le						   TR-QuweQu-OPT;
 
 
 ! ts'ázid[wake-up]:ts'á=zíd                INTR-ni-IPFV;   ! (IPFV; ni-IPFV)
