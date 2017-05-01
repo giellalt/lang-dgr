@@ -32,7 +32,8 @@ GT_LEXC_SRCS_L1_L2=\
 			 stems/numerals.lexc      \
 			 stems/prefixes.lexc      \
 			 stems/pronouns.lexc      \
-			 stems/verbs.lexc
+			 stems/verbs.lexc         \
+                         stems/words.lexc
 
 #			 stems/punctuation.lexc
 
