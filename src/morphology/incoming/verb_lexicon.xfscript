@@ -20,7 +20,7 @@ define OuterAffixes ;
 source dgr-phon.xfscript
 define Phonology ;
 
-source dgr-orthfix.xfscript
+source dgr-orth.xfscript
 define Orthography ;
 
 # Mark prefix type (insert corresponding flags to the
