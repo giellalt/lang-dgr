@@ -66,6 +66,8 @@ define Tags ;
 
 read regex Grammar Tags ;
 
+save stack dgr.foma
+
 #eliminate flags
 
 #echo ELIMINATE VALENCE

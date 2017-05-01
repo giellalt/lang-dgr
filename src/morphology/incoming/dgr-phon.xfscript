@@ -8,7 +8,7 @@ define d2gwRule [ ᴰ w -> g w ] ;
 define d2gRule [ ᴰ g h -> g ] ;
 define d2tejecRule [ ᴰ ʔ -> t ' ] ;
 define dDeleteRule [ ᴰ -> 0 ] ;
-
+define morphBoundRemoveRule [ %< -> 0 ] ;
 read regex [
 
 	d2jRule 		.o.
@@ -18,8 +18,7 @@ read regex [
 	d2gRule			.o.
 	d2tejecRule		.o.
 	dDeleteRule 	.o.
-
-	hl2lRule		
-
+	hl2lRule        .o.
+	morphBoundRemoveRule		
 
 ] ;
