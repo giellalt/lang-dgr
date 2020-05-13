@@ -1,0 +1,35 @@
+[package]
+name = "dgr"
+human_name = "Dogrib"
+version = "0.1.0"
+
+# Table of speller tag -> filename to include in the bundle
+# filenames depends on specific project
+[spellers.dgr]
+filename = "dgr-mobile.zhfst"
+
+# Table of bundles to generated
+# key is the type of bundle
+# Windows speller bundle require a uuid for the installer
+[bundles.speller_win]
+package = "speller-dgr"
+platform = "windows"
+uuid = "D9532DB7-6C91-4249-98E7-EC34C73CC5E3"
+repo = "https://pahkat.uit.no/main/"
+
+[bundles.speller_macos]
+pkg_id = "no.divvun.MacDivvun.dgr"
+package = "speller-dgr"
+platform = "macos"
+repo = "https://pahkat.uit.no/main/"
+
+[bundles.speller_win_mso]
+package = "speller-dgr-mso"
+platform = "windows"
+uuid = "44AFB3B7-B6D3-4BB5-A6E9-3587651BF9E8"
+repo = "https://pahkat.uit.no/main/"
+
+[bundles.speller_mobile]
+package = "speller-dgr"
+platform = "mobile"
+repo = "https://pahkat.uit.no/main/"
