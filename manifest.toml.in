@@ -1,0 +1,9 @@
+name = "Dogrib"
+version = "@SPELLERVERSION@"
+
+[macos]
+system_pkg_id = "no.divvun.MacDivvun.dgr"
+
+[windows]
+system_product_code = "D9532DB7-6C91-4249-98E7-EC34C73CC5E3"
+msoffice_product_code = "44AFB3B7-B6D3-4BB5-A6E9-3587651BF9E8"
