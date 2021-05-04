@@ -1,3 +1,54 @@
+Noun inflection
+The Dogrib language nouns inflect in cases.
+
+
+
+Proper noun inflection
+The Dogrib language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
+
+
+
+
+# Symbol affixes
+
+
+
+
+
+Adjective inflection
+The Dogrib language adjectives compare.
+
+
+
+Verb inflection
+The Dogrib language verbs inflect in persons.
+
+
+
+=================================== !
+The Dogrib morphophonological/twolc rules file !
+=================================== !
+
+
+
+
+
+
+
+
+* *primus%>s*
+* *primus00*
+
+
+* examples:*
+
+* examples:*
+
+
+* examples:*
+
+* examples:*
 
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Dogrib LANGUAGE.
 
@@ -76,6 +127,85 @@ given the proper use of these flags.
 
 The word forms in Dogrib language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
+
+Nouns
+Nouns in the Dogrib language are things.
+
+
+Prefixes
+Prefixes in the Dogrib language are bound to beginning of other words.
+
+
+
+Pronouns
+Pronouns in the Dogrib language are references to things.
+
+
+Adjectives
+Adjectives in the Dogrib language describe things.
+
+
+Verbs
+Verbs in the Dogrib language are actions.
+
+
+Numerals
+Numerals in the Dogrib language are numbers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% komma% :,      Root ;
+% tjuohkkis% :%. Root ;
+% kolon% :%:     Root ;
+% sárggis% :%-   Root ; 
+% násti% :%*     Root ; 
 
 
 
