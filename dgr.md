@@ -605,29 +605,32 @@ These were the set types.
 
 
 
-Nouns
-Nouns in the Dogrib language are things.
-
-
-Numerals
-Numerals in the Dogrib language are numbers.
-
-
-Verbs
-Verbs in the Dogrib language are actions.
-
-
-Prefixes
-Prefixes in the Dogrib language are bound to beginning of other words.
+Verb inflection
+The Dogrib language verbs inflect in persons.
 
 
 
-Adjectives
-Adjectives in the Dogrib language describe things.
+Proper noun inflection
+The Dogrib language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
 
 
-Pronouns
-Pronouns in the Dogrib language are references to things.
+
+Adjective inflection
+The Dogrib language adjectives compare.
+
+
+
+Noun inflection
+The Dogrib language nouns inflect in cases.
+
+
+
+
+# Symbol affixes
+
+
+
 
 
 =================================== !
@@ -653,32 +656,29 @@ The Dogrib morphophonological/twolc rules file !
 * examples:*
 
 * examples:*
-
-# Symbol affixes
-
-
+Verbs
+Verbs in the Dogrib language are actions.
 
 
-
-Noun inflection
-The Dogrib language nouns inflect in cases.
-
+Pronouns
+Pronouns in the Dogrib language are references to things.
 
 
-Proper noun inflection
-The Dogrib language proper nouns inflect in the same cases as regular
-nouns, but with a colon (':') as separator.
+Numerals
+Numerals in the Dogrib language are numbers.
 
 
+Adjectives
+Adjectives in the Dogrib language describe things.
 
-Verb inflection
-The Dogrib language verbs inflect in persons.
+
+Prefixes
+Prefixes in the Dogrib language are bound to beginning of other words.
 
 
 
-Adjective inflection
-The Dogrib language adjectives compare.
-
+Nouns
+Nouns in the Dogrib language are things.
 
 
 
@@ -763,22 +763,6 @@ word classes, or optionally from prefixes:
 
 
 
-We describe here how abbreviations are in Dogrib are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
-
-
-
-
 
 
 
@@ -829,6 +813,22 @@ For example:
 % kolon% :%:     Root ;
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
+
+
+
+
+We describe here how abbreviations are in Dogrib are read out, e.g.
+for text-to-speech systems.
+
+For example:
+
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
+
 
 
       [ L A N G U A G E ]  G R A M M A R   C H E C K E R
