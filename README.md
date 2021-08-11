@@ -3,7 +3,7 @@ The Dogrib morphology and tools
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-dgr)](https://github.com/giellalt/lang-dgr/issues)
 [![Build Status](https://github.com/giellalt/lang-dgr/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-dgr/actions)
-[![License](https://img.shields.io/github/license/giellalt/lang-dgr)](https://raw.githubusercontent.com/giellalt/lang-dgr/main/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-dgr)](https://github.com/giellalt/lang-dgr/blob/main/LICENSE)
 
 This repository contains finite state source files for the Dogrib language,
 for building morphological analysers, proofing tools
