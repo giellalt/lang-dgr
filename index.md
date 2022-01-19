@@ -11,7 +11,7 @@ The work is in an experimental phase.
 
 # Project documentation
 
-* [Alberta Language Technology Lab|http://altlab.artsrn.ualberta.ca/]
+* [Alberta Language Technology Lab](http://altlab.artsrn.ualberta.ca/)
 
 # In-source documentation
 
