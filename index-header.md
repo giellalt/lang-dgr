@@ -5,11 +5,13 @@
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-dgr)](https://github.com/giellalt/lang-dgr/issues)
 [![Build status](https://github.com/giellalt/lang-dgr/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-dgr/actions)
 
-This page documents the work on the **Dogrib language model**. 
+This page documents the work on the **Dogrib language model**.
+
+The work is in an experimental phase.
 
 # Project documentation
 
-* (Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.)
+* [Alberta Language Technology Lab|http://altlab.artsrn.ualberta.ca/]
 
 # In-source documentation
 
