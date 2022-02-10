@@ -1,7 +1,7 @@
 # Dogrib documentation
 
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
-[![License](https://img.shields.io/github/license/giellalt/lang-dgr)](https://raw.githubusercontent.com/giellalt/lang-dgr/main/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-dgr)](https://github.com/giellalt/lang-dgr/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-dgr)](https://github.com/giellalt/lang-dgr/issues)
 [![Build status](https://github.com/giellalt/lang-dgr/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-dgr/actions)
 
