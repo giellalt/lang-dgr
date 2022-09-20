@@ -4,6 +4,8 @@ The Dogrib morphology and tools
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-dgr)](https://github.com/giellalt/lang-dgr/issues)
 [![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-dgr/main/badge.svg)](https://github.com/giellalt/lang-dgr/actions)
 [![License](https://img.shields.io/github/license/giellalt/lang-dgr)](https://github.com/giellalt/lang-dgr/blob/main/LICENSE)
+[![Desktop speller download](https://img.shields.io/badge/download%40latest-desktop--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-dgr?platform=desktop&channel=nightly)
+[![Mobile speller download](https://img.shields.io/badge/download%40latest-mobile--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-dgr?platform=mbile&channel=nightly)
 
 This repository contains finite state source files for the Dogrib language,
 for building morphological analysers, proofing tools
