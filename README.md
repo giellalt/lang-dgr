@@ -30,7 +30,7 @@ Documentation
 
 Documentation can be found at:
 
--   <https://giellalt.uit.no/lang/dgrdoc/index.html>
+- [Language specific documentation](https://giellalt.github.io/lang-dgr/)
 -   <https://giellalt.uit.no/index.html>
 
 Core dependencies
