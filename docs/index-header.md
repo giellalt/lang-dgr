@@ -3,7 +3,7 @@
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
 [![License](https://img.shields.io/github/license/giellalt/lang-dgr)](https://github.com/giellalt/lang-dgr/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-dgr)](https://github.com/giellalt/lang-dgr/issues)
-[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-dgr/main/badge.svg)](https://github.com/giellalt/lang-dgr/actions)
+[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-dgr/main/badge.svg)](https://github.com/giellalt/lang-dgr/actions)
 
 This page documents the work on the **Dogrib language model**.
 
